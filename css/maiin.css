@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+#top{width: 100%; height: 1100px;  background-color: #fffbf1;}
+/* 슬레이더 */
+#slider{width: 100%;  height: 950px; position: relative;}
+.fimg1{ position: absolute; top: 0; right: 0;width: 607px; height: 750px; object-fit: cover;}
+.fimg4{ position: absolute; width: 250px; left: 390px; top: 130px;}
+.fimg2{ height: 634px;  position: absolute; bottom: 0; left: 100px;}
+.fimg3{ width: 300px; position: absolute; top: 0; left: -50px;}
+
+
+
+
+.snet{width: 1200px; height: 80%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); margin: 0 auto; /*background-color: red;*/}
+.snet img{width: 143px; position: absolute; top: 5%; left: 45%;}
+.snet p {text-align:center; font-size: 10px; border: 1px solid goldenrod; width: 120px; margin: 0 auto; padding: 10px;}
+.snet button{text-align:center; padding: 10px; width: 120px; border: 1px solid transparent; background-color: #fffbf1; transition: 0.5s}
+.snet button:hover{border: 1px solid goldenrod; background-color: goldenrod; color: #fff; }
+.snet h3 {text-align:center; font-size: 92px; font-family: 'Times New Roman', Times, serif ; margin-top: 19%; mix-blend-mode: soft-light;}
+
+/* 스토리 */
+#story{width: 100%; height: 750px; position: relative; /*background-color: blueviolet;*/}
+.simg1{position: absolute; width: 690px; padding: 25px; left: 220px;}
+
+.st{width: 600px; height: 70%; position: absolute; top: 50%; left: 68%; transform:translate(-50%,-50%) ; margin: 0 auto; /*background-color: rgb(255, 0, 0);*/}
+.st h1{text-align:left; font-size: 20px; color: goldenrod;}
+.st h2{text-align:left; font-size: 53px; font-family: 'Times New Roman', Times, serif}
+.st p{text-align:left; font-size: 18px; font-family: 'Times New Roman', Times, serif}
+.st span{font-size: 80px; }
+
+/* 베스트상품 */
+#best{width: 100%; height: 740px; /*background-color: chartreuse;*/}
+.bt{font-size: 40px; text-align: center; opacity: 20%; font-family: 'Times New Roman', Times, serif; color: goldenrod;}
+
+.bimg{width: 20%; height: 580px; float: left; text-align: center; box-sizing: border-box;/* background-color: coral;*/}
+.bimg:nth-of-type(3),.bimg:nth-of-type(5){padding-top: 27px;}
+.bimg p {font-size: 30px; float: left; margin-left: 15px;}
+.bimg img{width: 354px; height: 484px; }
+
+/* 어바웃 */
+#about{width: 100%; height: 965px; position: relative; background-color: #fffbf1;}
+.abimg{position: absolute; width: 640px; right: 180px; margin-top: 230px;}
+
+.abtimg {position: absolute; width: 250px; right: 700px; top: 100px;}
+.abt{width: 600px; height: 70%;  margin-left: 100px; position:relative;top: 160px ;  /*background-color: rgb(55, 0, 255);*/ font-family: 'Times New Roman', Times, serif}
+.abt p{font-size: 25px; color: goldenrod;}
+.abt h1{font-size: 55px; margin: 0; padding: 0;}
+.abt h2{font-size: 30px; margin: 0; padding: 0;}
+.abt h3{font-size: 18px; margin: 0; padding: 0;}
+.abtlogo {position: absolute; width: 200px; right: 700px; top: 180px;}
+.minelogo {width: 70px;float:left; border-color: goldenrod; border-radius: 50%;}
+
+/* 스페셜 */
+#special{width: 100%; height: 920px; background-color: rgb(92, 49, 0);}
+.spimg{position: relative; width: 740px; ; left: -220px; top: 100px;}
+
+.sp{position: relative; width: 600px; height: 600px;top: -610px;  float: right;}
+.sp p{font-size: 23px; color: goldenrod;}
+.sp h3{font-size: 48px; letter-spacing: 0.2em; color: #fff; font-weight: 500;}
+.sp button:hover{border: 10px solid goldenrod; background-color: goldenrod; color: #fff; }
+.sp button {border: 10px solid rgb(92, 49, 0); background-color: rgb(92, 49, 0);padding: 10px; color: #fff; transition: 0.5s;}
+
+/* 카테고리 */
+#category{width: 100%; height: 990px; /*background-color: crimson;*/}
+.ct{text-align: center; width: 100%; float:left; margin-top: -300px;}
+.ct h1{color: goldenrod; font-size: 15px;}
+.ct p{font-size: 50px; font-family:'Times New Roman', Times, serif;}
+
+.ctimg{float: left; margin: 39px; width: 12%; border-style: solid; border-width: 5px; border-color: goldenrod; border-radius: 50%;}
+.ctimg img{width: 300px; height: 300px;}
+
+
+/* 영상 */
+#video{width: 100%; height: 700px;   }
+.video-container { position: relative; width: 100%; height: 100%; overflow: hidden;}
+
+video { position: absolute; top: 50%; left: 50%; width: 100%; height: 100%; object-fit: cover; transform: translate(-50%, -50%);}
+
+
+/* 포스트 */
+#post{width: 100%; height: 840px;/* background-color: rgb(130, 255, 255);*/ }
+.post img {width: 100px; padding-left: 20px; }
+
+.post h2 {font-size: 15px; text-align: center; padding-top: 150px; color: goldenrod;padding-bottom: 10px;}
+.post h1 {font-size: 50px; text-align: center; padding-bottom: 40px;}
+
+.postbox {width: 320px; float: left; margin-left: 60px;}
+.postbox img {width: 320px; height: 260px; ;}
+.postbox p {width: 130%; font-size: 13px; font-family:'Times New Roman', Times, serif; color: goldenrod;}
+.postbox h3 {width: 130%; font-size: 20px; }
+.postbox span {font-size: 12px; color: goldenrod;}
+
+.post {clear: left; padding-top: 50px;}
+.snet p, .post p {text-align:center; font-size: 10px; border: 1px solid goldenrod; width: 120px; margin: 0 auto; padding: 10px;}
+.snet button, .post button{text-align:center; padding: 10px; width: 120px; border: 1px solid transparent; background-color: #fff; transition: 0.5s}
+.snet button:hover, .post button:hover{border: 1px solid goldenrod; background-color: goldenrod; color: #fff; }
+
+#bg{width: 100%; height: 300px; background: url(../img/endimg.png) 50% 110%/contain repeat-x; 
+    }
+
