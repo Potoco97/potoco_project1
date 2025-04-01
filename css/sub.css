@@ -1,12 +1,37 @@
 @charset "utf-8";
 
 #top{width: 100%; height: 150px;  background-color: #fffbf1;}
-.content{width: 70%;height: 1000px; float: left; background-color: tomato;}
+.content{width: 70%;height: 1000px; float: left; background-color: #fff3d5;}
 .content h2{font-size: 30px; font-weight: 550}
 .ma img{width: 100%;height: 500px; background-color:blueviolet;}
-.mabox{width: 90%;height: 250px; margin-top: -15px; margin-left: 5%; box-shadow: 7px 7px 7px #d3d3d3;
-        border-style: solid; border-color: #bbbbbb; background-color: #fff;}
-.map {margin: 20px; ; background-color: aqua;}
+.mabox{width: 90%;height: 310px; margin-top: -15px; margin-left: 5%; box-shadow: 7px 7px 7px #e9c77285;
+        border-style: solid; border-color: #f3d383; background-color: #fff;}
+.map {margin: 20px;}
+.map img {width: 100px; height: 100px; border-style: solid;color: goldenrod; border-radius: 50%; object-fit:cover; float: left;}
+.map i {float: right; margin-right: 10px; margin-top: 10px; font-size: 20px; border-style: solid; border-radius:50%; border-color: goldenrod; padding: 5px;}
+.map i:hover {background-color: goldenrod; cursor: pointer;}
+.map p {font-size: 20px;}
+.map span {font-size: 15px; color:#666;}
+.map h4 {font-weight: 500; color:#000}
+div hr {border-style: dashed;}
 
+aside{width: 30%; height: 1000px; float: right; background-color: #fff3d5;}
+.as {margin-left: 20px; margin-top: 40px;}
+.as p {font-size: 15px; border-style: solid;transition: 0.2s; border-radius:10px;
+       background-color: #fff; border-color: #f1dca7;border-width: 2px; margin:0 5px; margin-top: 10px; padding: 0 5px; float: left;}
+.as p:hover{background-color: goldenrod; cursor: pointer;}
 
-aside{width: 30%; height: 1000px; float: right; background-color: blue;}
+.cate {clear: both;padding-top: 20px;}
+.cate h2{font-size: 20px;text-align: center;margin-top: 20px;position: relative; }
+.cate h2:before{margin-left: 10px; content: ''; position: absolute;bottom: 50%; left: 10px; width: 100px; height: 2px; background-color: #000;}
+.cate h2:after{content: ''; position: absolute;bottom: 50%; right: 10px; width: 110px; height: 2px; background-color: #000;}
+.cate img{position:relative;background-color: brown; color: #fff; width: 140px; height: 100px; margin-left: 27.5px; margin-top: 20px; border-radius: 10px; 
+          border-style: solid; border-color: none; border-width: 0;}
+.cate img:hover{cursor: pointer; transition: 1s;transform:scale(-100%,100%); width: 150px; height: 120px;}
+
+.re {height: 200px; position: relative; clear: both;padding-top: 20px;}
+.re h2{font-size: 20px;text-align: center;margin-top: 5px;position: relative; }
+.re h2:before{margin-left: 10px; content: ''; position: absolute;bottom: 50%; left: 10px; width: 60px; height: 2px; background-color: #000;}
+.re h2:after{content: ''; position: absolute;bottom: 50%; right: 10px; width: 70px; height: 2px; background-color: #000;}
+.re img{overflow: hidden;margin: 4.1px; text-align: center; background-color: #fff;border: solid goldenrod; width: 100px; height: 100px; border-radius: 50%; border-width: 5px;}
+.re img:hover{cursor: pointer; transition: 1s;transform:scale(-100%,100%); width: 120px;height: 120px;}

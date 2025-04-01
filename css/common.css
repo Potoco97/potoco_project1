@@ -7,11 +7,12 @@ a{text-decoration: none; color: #333;}
 .container{width: 1200px; height: 100%; margin: 0 auto; }
 
 /* 헤더 */
-header{width: 1200px; height: 150px; margin: 0 auto; }
-#logo{float: left; margin: 37.5px 20px 0; block-size: 130px 69px ; /*background-color: aqua;*/}
-nav{float: right; margin: 75px 170px 0 0; /*background-color: aqua;*/}
+header{width: 1200px; height: 150px; margin: 0 auto;}
+#logo{float: left; margin: 37.5px 20px 0; block-size: 130px 69px ;}
+nav{float: right; margin: 75px 170px 0 0; }
 nav li{float:left; padding: 0px 30px;}
-nav li a{font-weight: bold; word-spacing:10px}
+nav li a{font-weight: bold; word-spacing:10px;}
+nav li:hover{font-size: 20px;transition: 0.5s; cursor: pointer;}
 
 
 
@@ -19,8 +20,8 @@ nav li a{font-weight: bold; word-spacing:10px}
 #container{width: 100%; height: 350px;clear: both; background-color: #444; text-align: center;}
 .co1 img {width: 100px; height: auto; }
 .co1 p {font-size: 30px; color: #fff;}
-.co1 p i{font-size: 20px; border-style: solid; border-radius:50%; border-color: goldenrod; padding: 10px;}
-.co1 p i:hover {background-color: goldenrod; }
+.co1 p i{font-size: 20px; border-style: solid; border-radius:50%; border-color: goldenrod; padding: 10px; cursor: pointer; }
+.co1 p i:hover {background-color: goldenrod;  }
 
 .co2 img {width: 60px; height: auto; color: goldenrod;}
 .co2 p {font-size: 17px; text-align: left; margin: -150px; color: #fff;}
