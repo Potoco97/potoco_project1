@@ -1,37 +1,47 @@
 @charset "utf-8";
 
+/* 헤더 */
 #top{width: 100%; height: 150px;  background-color: #fffbf1;}
-.content{width: 70%;height: 1000px; float: left; background-color: #fff3d5;}
+
+/* 서브 메인이미지 */
+#sub{background-color: #fff3d5; overflow: hidden; }
+#sub h1,h2,h3,h4{font-family: 'Times New Roman', Times, serif}
+#contents{width: 65%; float: left; padding-top: 70px;}
+.content{width: 100%;height: 1000px; }
 .content h2{font-size: 30px; font-weight: 550}
 .ma img{width: 100%;height: 500px; background-color:blueviolet;}
-.mabox{width: 90%;height: 310px; margin-top: -15px; margin-left: 5%; box-shadow: 7px 7px 7px #e9c77285;
+.mabox{width: 90%;height: 310px; margin: -15px auto 0;box-shadow: 7px 7px 7px #e9c77285;
         border-style: solid; border-color: #f3d383; background-color: #fff;}
 .map {margin: 20px;}
-.map img {width: 100px; height: 100px; border-style: solid;color: goldenrod; border-radius: 50%; object-fit:cover; float: left;}
-.map i {float: right; margin-right: 10px; margin-top: 10px; font-size: 20px; border-style: solid; border-radius:50%; border-color: goldenrod; padding: 5px;}
+.map img {width: 100px; height: 100px;cursor: pointer; border-style: solid;color: goldenrod; border-radius: 50%; object-fit:cover; float: left;}
+.map i {float: right; margin-right: 5px; margin-top: 90px; font-size: 20px; border-style: solid; border-radius:50%; border-color: goldenrod; padding: 5px;}
 .map i:hover {background-color: goldenrod; cursor: pointer;}
 .map p {font-size: 20px;}
-.map span {font-size: 15px; color:#666;}
+.map span {padding-left: 10px;font-size: 15px; color:#666;}
 .map h4 {font-weight: 500; color:#000}
 div hr {border-style: dashed;}
 
-aside{width: 30%; height: 1000px; float: right; background-color: #fff3d5;}
-.as {margin-left: 20px; margin-top: 40px;}
-.as p {font-size: 15px; border-style: solid;transition: 0.2s; border-radius:10px;
+/* 서브 보조이미지 */
+aside{width: 30%; height: 3000px; float: right; background-color: #fff3d5;}
+.as {margin-left: 20px; margin-top: 70px;}
+.as p {font-size: 15px; border-style: solid;transition: 0.5s; border-radius:10px;
        background-color: #fff; border-color: #f1dca7;border-width: 2px; margin:0 5px; margin-top: 10px; padding: 0 5px; float: left;}
-.as p:hover{background-color: goldenrod; cursor: pointer;}
+.as p:hover{transform: scale(110%); background-color: goldenrod; cursor: pointer; transform-box:border-box; border-radius: 15px;}
 
 .cate {clear: both;padding-top: 20px;}
 .cate h2{font-size: 20px;text-align: center;margin-top: 20px;position: relative; }
 .cate h2:before{margin-left: 10px; content: ''; position: absolute;bottom: 50%; left: 10px; width: 100px; height: 2px; background-color: #000;}
 .cate h2:after{content: ''; position: absolute;bottom: 50%; right: 10px; width: 110px; height: 2px; background-color: #000;}
-.cate img{position:relative;background-color: brown; color: #fff; width: 140px; height: 100px; margin-left: 27.5px; margin-top: 20px; border-radius: 10px; 
-          border-style: solid; border-color: none; border-width: 0;}
-.cate img:hover{cursor: pointer; transition: 1s;transform:scale(-100%,100%); width: 150px; height: 120px;}
+.cate img{position:relative; color: #fff; width: 140px; height: 100px; margin-left: 20.5px; margin-top: 20px; border-radius: 10px; 
+          border-style: solid; border-width: 5px;border-color: transparent; transform-box:border-box; transition: 0.8s}
+.cate img:hover{cursor: pointer; width: 140px; height: 100px; border-color: goldenrod; border-width: 5px; border-radius: 10px; transform: scale(110%);}
 
 .re {height: 200px; position: relative; clear: both;padding-top: 20px;}
-.re h2{font-size: 20px;text-align: center;margin-top: 5px;position: relative; }
-.re h2:before{margin-left: 10px; content: ''; position: absolute;bottom: 50%; left: 10px; width: 60px; height: 2px; background-color: #000;}
-.re h2:after{content: ''; position: absolute;bottom: 50%; right: 10px; width: 70px; height: 2px; background-color: #000;}
-.re img{overflow: hidden;margin: 4.1px; text-align: center; background-color: #fff;border: solid goldenrod; width: 100px; height: 100px; border-radius: 50%; border-width: 5px;}
-.re img:hover{cursor: pointer; transition: 1s;transform:scale(-100%,100%); width: 120px;height: 120px;}
+.re h2{font-size: 20px;text-align: center;position: relative; margin-top: 10px; margin-bottom: 20px;}
+.re h2:before{content: ''; position: absolute;bottom: 50%; left: 36px; width: 50px; height: 2px; background-color: #000;}
+.re h2:after{content: ''; position: absolute;bottom: 50%; right: 25px; width: 60px; height: 2px; background-color: #000;}
+.re img{margin-left: 8px; text-align: center; background-color: #fff; border: solid; border-color: goldenrod;border-width: 3px; width: 95px; height: 95px;transform-box:border-box;border-radius: 50%;transition: 1s;}
+.re img:hover{transform: scale(125%);cursor:pointer;  width: 100px;height: 100px;border-radius: 50%; border-width: 3.5px;}
+
+/* 컨테이너 */
+#container{width: 100%; height: 350px;clear: both; background-color: #444; text-align: center;}
