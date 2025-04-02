@@ -35,11 +35,12 @@
 .bimg{width: 20%; height: 580px; float: left; text-align: center; box-sizing: border-box;/* background-color: coral;*/}
 .bimg:nth-of-type(3),.bimg:nth-of-type(5){padding-top: 27px;}
 .bimg p {font-size: 30px; float: left; margin-left: 15px;}
-.bimg img{width: 354px; height: 484px; }
-
+.bimg img{width: 354px; height: 484px; transition: 1s;}
+.bimg img:hover{transform: scale(115%,90%)}
 /* 어바웃 */
 #about{width: 100%; height: 965px; position: relative; background-color: #fffbf1;}
-.abimg{position: absolute; width: 640px; right: 180px; margin-top: 230px;}
+.abimg{position: absolute; width: 640px; right: 180px; margin-top: 230px;transition: 1s;}
+.abimg:hover{transform: scale(115%,105%)}
 
 .abtimg {position: absolute; width: 250px; right: 700px; top: 100px;}
 .abt{width: 600px; height: 70%;  margin-left: 100px; position:relative;top: 160px ;  /*background-color: rgb(55, 0, 255);*/ font-family: 'Times New Roman', Times, serif}
